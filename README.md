@@ -6,6 +6,10 @@ git checkout -b lpy    (如果没有自己的分支，创建并切换到lpy分�
 
 git branch  (查看当前分支，确认在自己的分支上)
 
+git add . (添加所有更改)
+
+git commit --author="lpy <>" -m "commit info"   (commit 并注释作者)
+
 git checkout dev   (切换到dev分支)
 
 git merge lpy  (将自己的更改merge到dev分支)
